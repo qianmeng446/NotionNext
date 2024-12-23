@@ -311,9 +311,9 @@ const BLOG = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
-      name: '风を共に舞う気持ち',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731419.mp3',
+      name: 'call end',
+      artist: '山花终将灿烂',
+      url: 'https://ws.stream.qqmusic.qq.com/M500002Qxvbm17Le8K.mp3?guid=514763354&vkey=33950ACA5DA4AEA95AFE9AADB54F8FEEC19BB79D119D16E8BA60DACDEC12B944A690083578F6BBD60BC8FBA24F6E217ED2677CFBE769C849__v21ea0f896&uin=&fromtag=120042&src=M500004JWcvq1DLp2q.mp3',
       cover:
         'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
     },
