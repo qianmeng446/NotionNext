@@ -7,14 +7,13 @@ import { siteConfig } from ''
 export default function PoweredBy(props) {
   return (
     <div
-      className={`gap-x-1 flex flex-wrap text-sm font-serif ${props.className || '千梦'}`}>
+     className={`gap-x-1 flex flex-wrap text-sm font-serif ${props.className || ''}`}>
       <span>Powered by</span>
       <a
         href='https://qianmeng666.us.kg'
         className='underline justify-start'>
-        千梦 
+        千梦 {siteConfig('VERSION')}
+       
       </a>
       .
     </div>
-  )
-}
