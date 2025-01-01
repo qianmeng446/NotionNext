@@ -1,4 +1,4 @@
-import { siteConfig } from '@/lib/config'
+import { siteConfig } from ''
 
 /**
  * 驱动版权
@@ -7,7 +7,7 @@ import { siteConfig } from '@/lib/config'
 export default function PoweredBy(props) {
   return (
     <div
-      className={`gap-x-1 flex flex-wrap text-sm font-serif ${props.className || ''}`}>
+      className={`gap-x-1 flex flex-wrap text-sm font-serif ${props.className || '千梦'}`}>
       <span>Powered by</span>
       <a
         href='https://qianmeng666.us.kg'
