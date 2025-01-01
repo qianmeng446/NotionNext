@@ -1,4 +1,4 @@
-import { siteConfig } from ''
+import { siteConfig } from '@/lib/config'
 
 /**
  * 驱动版权
@@ -7,13 +7,14 @@ import { siteConfig } from ''
 export default function PoweredBy(props) {
   return (
     <div
-     className={`gap-x-1 flex flex-wrap text-sm font-serif ${props.className || ''}`}>
+      className={`gap-x-1 flex flex-wrap text-sm font-serif ${props.className || ''}`}>
       <span>Powered by</span>
       <a
-        href='https://qianmeng666.us.kg'
+        href='https://github.com/tangly1024/NotionNext'
         className='underline justify-start'>
-        千梦 {siteConfig('VERSION')}
-       
+        NotionNext {siteConfig('VERSION')}
       </a>
       .
     </div>
+  )
+}
