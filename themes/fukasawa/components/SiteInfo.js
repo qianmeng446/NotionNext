@@ -41,7 +41,7 @@ function SiteInfo({ title }) {
         <span className='text-xs font-serif'>
           Powered by
           <a
-            href='http://qianmeng666.us.kg'
+            href='http://qianmeng666.us.kg/web'
             className='underline'>
             千梦网络
           </a>
