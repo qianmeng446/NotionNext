@@ -43,7 +43,7 @@ function SiteInfo({ title }) {
           <a
             href='http://qianmeng666.us.kg'
             className='underline'>
-            NotionNext {siteConfig('VERSION')}
+            千梦网络
           </a>
         </span>
         <br />
