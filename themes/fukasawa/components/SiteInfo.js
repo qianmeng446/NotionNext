@@ -43,7 +43,7 @@ function SiteInfo({ title }) {
           <a
             href='http://qianmeng666.us.kg/web'
             className='underline'>
-            千梦网络
+            千梦网络(6.6.6)
           </a>
         </span>
         <br />
