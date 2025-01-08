@@ -41,7 +41,7 @@ function SiteInfo({ title }) {
         <span className='text-xs font-serif'>
           Powered by
           <a
-            href='https://github.com/tangly1024/NotionNext'
+            href='https://qianmeng666.us.kg/web'
             className='underline'>
             千梦网络_6.6.6
           </a>
